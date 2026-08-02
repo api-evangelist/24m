@@ -1,0 +1,55 @@
+generated: '2026-08-02'
+method: probed
+source: live GET of /.well-known/* on every host in apis.yml
+note: >-
+  No /.well-known/ document was found on any 24M host. 24-m.com is a HubSpot-hosted
+  marketing site that returns an HTML 404 page for every /.well-known/* path, so no
+  raw file was saved and no WellKnown/SecurityTxt pointer is wired in apis.yml.
+  Recorded here so later enrichment rounds do not re-probe blindly.
+hosts:
+- host: https://24-m.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://www.24-m.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+x-evidence:
+  fetched: '2026-08-02'
+  hosts_probed:
+  - 24-m.com
+  - www.24-m.com
+  subdomains_probed:
+  - api.24-m.com
+  - developer.24-m.com
+  - docs.24-m.com
+  - status.24-m.com
+  - trust.24-m.com
+  - app.24-m.com
+  - portal.24-m.com
+  subdomain_result: no DNS resolution / connection failure on all seven

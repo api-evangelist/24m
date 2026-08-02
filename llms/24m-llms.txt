@@ -1,0 +1,53 @@
+# 24M Technologies
+
+> 24M Technologies is a battery technology company founded in 2010 out of MIT laboratories and headquartered in Cambridge, Massachusetts. It licenses battery materials, cell architecture and its SemiSolid manufacturing platform to energy-storage system integrators, EV battery manufacturers and OEMs rather than manufacturing cells at scale itself. 24M is a hardware, materials and manufacturing company and publishes no public developer API, SDK, or machine-readable API contract.
+
+## Products
+
+- [Eternalyte Electrolyte](https://24-m.com/eternalyte): Electrolyte for ultra-fast charging and low-temperature performance.
+- [Impervio Separator](https://24-m.com/impervio): Separator technology aimed at preventing thermal runaway.
+- [LiForever Electrode](https://24-m.com/liforever): Electrode technology targeting cell longevity.
+- [24M ETOP](https://24-m.com/etop): Electrode-to-pack architecture for pack-level energy density.
+- [Production Equipment](https://24-m.com/production-equipment): Manufacturing equipment for SemiSolid cell production.
+- [Products overview](https://24-m.com/products)
+- [Solutions](https://24-m.com/solutions)
+
+## Company
+
+- [About 24M](https://24-m.com/about-24m)
+- [Leadership](https://24-m.com/leadership)
+- [Partners](https://24-m.com/partners)
+- [Investors](https://24-m.com/investors)
+- [Culture + Careers](https://24-m.com/culture-careers)
+- [Contact](https://24-m.com/contact-24m)
+
+## News
+
+- [News](https://24-m.com/news)
+- [Press Releases](https://24-m.com/press-releases)
+- [In the News](https://24-m.com/in-the-news)
+- [mPower Blog](https://24-m.com/mpower-blog)
+- [mPower Blog RSS](https://24-m.com/mpower-blog/rss.xml)
+- [Press Releases RSS](https://24-m.com/press-releases/rss.xml)
+
+## Legal
+
+- [Terms of Use](https://24-m.com/terms-of-use)
+- [Privacy Policy](https://24-m.com/privacy-policy)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/24m/refs/heads/main/apis.yml): APIs.json 0.20 index for 24M.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/24m/refs/heads/main/security/24m-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for 24-m.com.
+- [Well-known probe record](https://raw.githubusercontent.com/api-evangelist/24m/refs/heads/main/well-known/24m-well-known.yml): Result of the /.well-known/ discovery sweep (no documents found).
+
+## Optional
+
+- [24M stock on Forge Global](https://forgeglobal.com/24m_stock/): Secondary-market listing for 24M shares (third party, not operated by 24M).
+- [24M on LinkedIn](https://www.linkedin.com/company/24m-technologies)
+
+<!--
+generated: 2026-08-02
+method: generated
+source: apis.yml + https://24-m.com/ (no /llms.txt published; https://24-m.com/llms.txt returned 404)
+-->

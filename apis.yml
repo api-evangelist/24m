@@ -1,18 +1,40 @@
 aid: 24m
 name: 24M
-description: '24M is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: '24M Technologies is a battery technology company founded in 2010 out of
+  MIT laboratories and headquartered in Cambridge, Massachusetts. Rather than manufacturing
+  cells at scale itself, 24M licenses its battery materials, cell architecture and SemiSolid
+  manufacturing platform to energy-storage system integrators, EV battery manufacturers
+  and OEMs worldwide. Its product portfolio spans the Eternalyte electrolyte (ultra-fast
+  charging and low-temperature performance), the Impervio separator (thermal-runaway
+  prevention), the LiForever electrode, the 24M ETOP electrode-to-pack architecture,
+  and 24M production equipment. Partners and corporate investors have included Volkswagen
+  Group, Kyocera, Itochu and FREYR Battery. 24M is a hardware, materials and manufacturing
+  company; it publishes no public developer API, SDK or machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/24m/refs/heads/main/apis.yml
+image: https://24-m.com/hubfs/24M%20logo%20trademark%20version@2x.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enriched
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Batteries
+- Energy Storage
+- Electric Vehicles
+- Lithium-Ion
+- Materials Science
+- Manufacturing
+- Clean Technology
+- Hardware
 apis: []
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -20,4 +42,36 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://24-m.com/
+- type: About
+  url: https://24-m.com/about-24m
+- type: Products
+  url: https://24-m.com/products
+- type: Partners
+  url: https://24-m.com/partners
+- type: Investors
+  url: https://24-m.com/investors
+- type: Careers
+  url: https://24-m.com/culture-careers
+- type: Contact
+  url: https://24-m.com/contact-24m
+- type: Blog
+  url: https://24-m.com/mpower-blog
+- type: BlogFeeds
+  url: https://24-m.com/mpower-blog/rss.xml
+- type: News
+  url: https://24-m.com/news
+- type: PressReleases
+  url: https://24-m.com/press-releases
+- type: TermsOfService
+  url: https://24-m.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://24-m.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/24m-technologies
+- type: Marketplace
   url: https://forgeglobal.com/24m_stock/
+- type: DomainSecurity
+  url: security/24m-domain-security.yml
+- type: LLMsTxt
+  url: llms/24m-llms.txt
