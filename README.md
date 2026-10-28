@@ -64,28 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-24M Technologies is a battery technology company founded in 2010 out of MIT laboratories and headquartered
-in Cambridge, Massachusetts. It licenses its battery materials, cell architecture and SemiSolid
-manufacturing platform to energy-storage system integrators, EV battery manufacturers and OEMs rather
-than manufacturing cells at scale itself. Products include the Eternalyte electrolyte, the Impervio
-separator, the LiForever electrode, the 24M ETOP electrode-to-pack architecture, and 24M production
-equipment.
+24M Technologies is a battery technology company founded in 2010 out of MIT laboratories and headquartered in Cambridge, Massachusetts. Rather than manufacturing cells at scale itself, 24M licenses its battery materials, cell architecture and SemiSolid manufacturing platform to energy-storage system integrators, EV battery manufacturers and OEMs worldwide. Its product portfolio spans the Eternalyte electrolyte (ultra-fast charging and low-temperature performance), the Impervio separator (thermal-runaway prevention), the LiForever electrode, the 24M ETOP electrode-to-pack architecture, and 24M production equipment. Partners and corporate investors have included Volkswagen Group, Kyocera, Itochu and FREYR Battery. 24M is a hardware, materials and manufacturing company; it publishes no public developer API, SDK or machine-readable API contract.
 
-- https://24-m.com/
+**Areas:** Company · Batteries · Energy Storage · Electric Vehicles · Lithium-Ion · Materials Science · Manufacturing · Clean Technology · Hardware
 
-## API surface
+## 24M on APIs.io
 
-**None found.** 24M publishes no developer portal, no API documentation, no OpenAPI/AsyncAPI/GraphQL
-contract, no SDKs and no MCP or A2A surface. Contract discovery on 2026-08-02 probed `24-m.com` and
-`www.24-m.com` for `/openapi.json`, `/swagger.json`, `/api-docs`, `/llms.txt` and the full
-`/.well-known/` set (all 404), and found no DNS for `api.`, `developer.`, `docs.`, `status.`, `trust.`,
-`app.` or `portal.` subdomains. No first-party GitHub organization or package-registry libraries were
-found. This repo profiles 24M as a company, not as an API provider.
+Everything profiled for 24M is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/24m/](https://apis.io/providers/24m/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Path | Type | Method |
-|---|---|---|
-| `security/24m-domain-security.yml` | DomainSecurity | probed |
-| `well-known/24m-well-known.yml` | (probe record, unwired) | probed |
-| `llms/24m-llms.txt` | LLMsTxt | generated |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [24M Domain Security](https://apis.io/security/24m/24m-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://24-m.com/)
+- [Blog](https://24-m.com/mpower-blog)
+- [Terms of service](https://24-m.com/terms-of-use)
+- [Privacy policy](https://24-m.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 10.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/24m/](https://apis.io/providers/24m/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 24M: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/24m/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
